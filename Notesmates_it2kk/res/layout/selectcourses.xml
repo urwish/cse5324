@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/notebook_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Own Group" />
+    
+    <EditText android:id="@+id/txtCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id/btnAddNewCategory"
+        android:text="Create New Group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Course 1"/>
+    
+    <Spinner android:id="@+id/spincourse1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Course 2"/>
+    
+    <Spinner android:id="@+id/spincourse2"
+        android:layout_width="fill_parent"
+        
+        android:layout_height="wrap_content"/>
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Course 3"/>
+    
+    <Spinner android:id="@+id/spincourse3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id/btnSelectClass"
+        android:text="Finalize Courses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+     <Button android:id="@+id/btnEnterHomePage"
+        android:text="Enter Home Page"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+    
+     
+</LinearLayout>
